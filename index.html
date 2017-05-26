@@ -183,21 +183,22 @@
 
     <div class="search-area">
         <div class="search-area-inner">
-            <div class="search-contents show-search-area animated fadeInUp">
+            <form action="https://formspree.io/contato@beestart.com.br" method="POST">
+                <div class="search-contents show-search-area animated fadeInUp">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Endereço</label>
-                            <input class="form-control search-fields" placeholder="Qual endereço?">
+                            <input class="form-control search-fields" placeholder="Qual endereço?" name="endereco">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Qual tipo?</label>
-                            <select class="selectpicker search-fields">
-                                <option>Apartamento</option>
-                                <option>Casa</option>
-                                <option>Imóvel Comercial</option>
+                            <select class="selectpicker search-fields" name="Tipo de imóvel">
+                                <option value="Apartamento">Apartamento</option>
+                                <option value="Casa">Casa</option>
+                                <option value="Imóvel Comercial">Imóvel Comercial</option>
                             </select>
                         </div>
                     </div>
@@ -206,23 +207,25 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="form-group">
                             <label>Área</label>
-                            <input class="form-control search-fields" placeholder="m²">
+                            <input class="form-control search-fields" placeholder="m²" name="Area">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="form-group">
                             <label>Aluguel</label>
-                            <input class="form-control search-fields" placeholder="Qual valor do aluguel?">
+                            <input class="form-control search-fields" placeholder="Qual valor do aluguel?" name="Aluguel">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12  hidden-xs">
                             <div class="form-group">
                                 <label>&nbsp;</label>
-                                <button class="search-button-form">Orçamento!</button>
+                                <button type="submit" class="search-button-form">Orçamento!</button>
                             </div>
                     </div>
-                 </div>                   
-            </div>
+                 </div> 
+
+                </div>
+            </form>
         </div>
     </div>
 </div>
