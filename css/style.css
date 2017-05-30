@@ -5763,6 +5763,6 @@ mark, .mark {
     border: none !important;
 }
 
-.item .active #capa-banner1 {
-            background-image:url(../img/capa1.jpg);
+.capaBanner1 {
+    background-image: url(../img/capa1.jpg);
 }
