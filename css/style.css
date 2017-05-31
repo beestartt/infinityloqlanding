@@ -5765,6 +5765,6 @@ mark, .mark {
     border: none !important;
 }
 
-.capaBanner1 {
-    background-image: url(../img/capa1.jpg);
+.item .active #capa-banner1 {
+            background-image:url(../img/capa1.jpg);
 }
