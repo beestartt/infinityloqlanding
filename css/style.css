@@ -72,6 +72,7 @@ a:hover {
 }
 
 .delay-05s {
+    margin-top:0px !important;
     animation-delay: 0.5s;
     -webkit-animation-delay: 0.5s
 }
@@ -5725,6 +5726,7 @@ mark, .mark {
         -o-animation: none !important;
         -ms-animation: none !important;
         animation: none !important;
+        margin-top:0px !important;
 
         /*CSS3 transition properties*/
         -o-transition-property: none !important;
