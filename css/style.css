@@ -72,7 +72,6 @@ a:hover {
 }
 
 .delay-05s {
-    margin-top:0px !important;
     animation-delay: 0.5s;
     -webkit-animation-delay: 0.5s
 }
@@ -5436,7 +5435,7 @@ mark, .mark {
     }
 
     .banner .banner-top-align {
-        top: 15px !important;
+        top: 10px !important;
         right: 10%;
     }
 
@@ -5742,6 +5741,10 @@ mark, .mark {
         -webkit-transform: none !important;
         transform: none !important;
     }
+}
+
+.text-margin-top:{
+    margin-top: -25px !important;
 }
 
 @media (min-width: 768px) {
